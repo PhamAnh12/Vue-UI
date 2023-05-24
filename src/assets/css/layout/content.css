@@ -1,0 +1,111 @@
+.content{
+    background-color: #f1f1f1;
+    
+}
+.content__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.content__header h3{
+    margin: 0;
+}
+.content__body{
+    background-color: var(--white-color);
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 4px;
+    height: calc(100% - 52px);
+    padding: 12px 12px 0px 12px;
+   
+
+    
+}
+.container__sidebar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.sidebar__left{
+   display: flex;
+   flex: 1;
+   position: relative;
+}
+.sidebar__delete__list{
+    border-radius: 4px;
+    border: 2px solid #3b3c3f;
+    padding: 4px 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+.delete__list{
+    position: absolute;
+    cursor: pointer;
+    top: 34px;
+    left: 128px;
+    border: 1px solid var(--border-color);
+    padding: 6px 0 ;
+    height: 28px;
+    padding: 6px;
+    border-radius: 2px;
+    padding-right: 48px;
+    background-color: #fff;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.delete__list:hover{
+    background-color: #d2d3d6;
+}
+.sidebar__delete__list:hover{
+    background-color: #d2d3d6;
+}
+.delete__list__text{
+    margin-right: 4px;
+}
+.sidebar__right{
+    display: flex;
+    align-items: center;
+   margin-right: 4px;
+}
+.btn__sidebar{
+    display: flex;
+    justify-content: space-between;
+}
+.btn__sidebar__item{
+    margin: 6px;
+}
+.content__body__wrapper{
+    width: 100%;
+    height: calc(100% - 28px);
+   
+   
+}
+.content__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px  16px ;
+    border-top: 1px solid  #F8F8F8;
+    height: 56px;
+}
+.container__table{
+    height:  calc(100% - 46px);  
+    padding-bottom: 6px; 
+    position: relative; 
+    overflow-x: auto;
+    overflow-y:auto ;
+
+}
+.container__table::-webkit-scrollbar-track {
+    margin-top: 34px;
+  }
+
