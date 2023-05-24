@@ -581,7 +581,7 @@ export default {
     getListEmployee() {
       try {
         let offset = (this.numPage - 1) * this.recordNumber;
-        let url = `${urlBase}/Employees/filter?limit=${this.recordNumber}&offset=${offset}&search=${this.search}`;
+        let url = `${urlBase}/Employees/filter?limit=100&offset=${offset}&search=${this.search}`;
      
         fetch(url)
           .then((res) => 
